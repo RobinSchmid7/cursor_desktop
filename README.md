@@ -10,20 +10,21 @@ Create a desktop image for Cursor on Ubuntu.
   
 - **Rename the AppImage:**
     ```bash
-  mv <path_to_downloaded_cursor_appimage> cursor.AppImage  ```
+  mv <path_to_downloaded_cursor_appimage> cursor.AppImage 
+  ```
 
 - **Make it executable and move to `/opt`:**
     ```bash
   chmod +x cursor.AppImage
-  sudo mv cursor.AppImage /opt/cursor.AppImage  ```
+  sudo mv cursor.AppImage /opt/cursor.AppImage
+   ```
 
 ### 2. Install FUSE
+- Install FUSE support required by the AppImage:
 
-Install FUSE support required by the AppImage:
-
-```bash
-sudo apt-get install libfuse2
-```
+	```bash
+	sudo apt-get install libfuse2
+	```
 
 ### 3. Add Desktop Entry
 
