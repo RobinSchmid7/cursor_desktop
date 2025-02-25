@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Cursor
-Exec=/opt/cursor.appimage
+Exec=/opt/cursor.AppImage
 Icon=/opt/cursor.png
 Type=Application
 Categories=Development;
